@@ -27,3 +27,11 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## My Contribution
+- Information architecture and user flows
+- UI/UX design decisions
+- Frontend implementation
+- Unit tests
+- Api unsplash 
+- Usability testing and improvements
