@@ -12,7 +12,7 @@
                     <v-icon>
                       mdi-email
                     </v-icon>
-                    <p>Escola de Media Artes e Design, Vila do Conde, Portugal</p>
+                    <p>circo@gmail.com</p>
                 </div>
                 
                 <div class="contact-info">
@@ -27,7 +27,7 @@
                       mdi-map-marker-radius
 
                     </v-icon>
-                    <p>circo@gmail.com</p>
+                    <p>Escola de Media Artes e Design, Vila do Conde, Portugal</p>
                 </div>
              
             </div>
