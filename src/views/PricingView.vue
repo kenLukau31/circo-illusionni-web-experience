@@ -419,7 +419,7 @@
             <!-- Alerta personalizado de sucesso  -->
             <div v-if="successVisible" class="success-alert">
                 <div class="cont-success-alert">
-                    <img src="@/assets/alerts/Bilhetes.png" alt="" class="img-success-alert" />
+                    <img src="@/assets/alerts/bilhetes.png" alt="" class="img-success-alert" />
                     <button @click="closeSuccessAlert" class="btn-success">X</button>
                 </div>
             </div>

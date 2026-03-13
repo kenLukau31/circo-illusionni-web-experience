@@ -60,7 +60,7 @@
                         v-if="ticketStore.purchasedTickets">
                         <div class="card-ticket" v-for="ticket in ticketStore.purchasedTickets" :key="ticket.id">
                                 <v-slide-group-item class='bg-card'>
-                                    <img src="/src/assets/AccountView/Bilhete.png" class="img-ticket-bg" alt="Background da card">
+                                    <img src="/src/assets/AccountView/bilhete.png" class="img-ticket-bg" alt="Background da card">
                                     <div class="card-info">
                                         <div style="margin-top: 10px; margin-left: 10px; width: 300px;">
                                             <h3 style="margin-left: 5px;">{{ ticket.title }}</h3>
@@ -97,7 +97,7 @@
                     v-if="ticketStore.purchasedWorkshops">
                         <div class="card-ticket" v-for="workshop in ticketStore.purchasedWorkshops">
                             <v-slide-group-item class="bg-card">
-                                <img src="/src/assets/AccountView/Bilhete.png" class="img-ticket-bg" alt="Background da card">
+                                <img src="/src/assets/AccountView/bilhete.png" class="img-ticket-bg" alt="Background da card">
                                 <div class="card-info">
                                     <div style="margin-top: 10px; margin-left: 10px; width: 300px; padding-right: 10px;">
                                         <h3 style="margin-left: 5px;">{{ workshop.title }}</h3>
@@ -219,7 +219,7 @@
                         <!-- Alerta personalizado de Eliminar Conta -->
                         <div v-if="alertVisible" class="personalizedAlert">
                             <div class="cont-personalizedAlert">
-                                <img src="@/assets/alerts/eliminar conta.png" alt="" class="img-personalizedAlert" />
+                                <img src="@/assets/alerts/eliminar-conta.png" alt="" class="img-personalizedAlert" />
                                 <div class="btns-alert">
                                     <button @click="closePersonalizedAlert" class="btn-cancelar">Cancelar</button>
                                     <button @click="removeAccount" class="btn-eliminar">Eliminar</button>
@@ -230,7 +230,7 @@
                         <!-- Alerta personalizado de sucesso  -->
                         <div v-if="successVisible" class="success-alert">
                             <div class="cont-success-alert">
-                                <img src="@/assets/alerts/Notificação Sucesso.png" alt="" class="img-success-alert" />
+                                <img src="@/assets/alerts/notificação-sucesso.png" alt="" class="img-success-alert" />
                                 <button @click="closeSuccessAlert" class="btn-success">X</button>
                             </div>
                         </div>
